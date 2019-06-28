@@ -256,7 +256,7 @@ public class TGPDiscreteSlider:TGPSlider_INTERFACE_BUILDER {
         initProperties()
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         initProperties()
     }
