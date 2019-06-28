@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "TGPControls"
-  spec.version      = "5.1.0"
+  spec.version      = "5.1.1"
   spec.summary      = "Custom animated iOS controls: Animated discrete slider, animated labels"
 
   spec.description  = <<-DESC
@@ -21,12 +21,10 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :ios
-  spec.ios.deployment_target = '8.0'
-  spec.requires_arc = true
-  spec.swift_version = '4.0'
+  spec.ios.deployment_target = '13.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/SwiftArchitect/TGPControls.git", :tag => "v5.1.0" }
+  spec.source       = { :git => "https://github.com/Jasperav/TGPControls.git"}
   spec.source_files = "TGPControls/**/*.{swift}"
   spec.exclude_files = "TGPControlsDemo/*"
 
